@@ -1,12 +1,14 @@
 <script setup>
 
-import RefAndReactive from "@/RefAndReactive.vue";
-import Computed from "@/Computed.vue";
+import RefAndReactive from "@/components/RefAndReactive.vue";
+import Computed from "@/components/Computed.vue";
+import Watch from "@/components/Watch.vue";
 </script>
 
 <template>
 <!--	<RefAndReactive />-->
-	<Computed />
+<!--	<Computed />-->
+	<Watch />
 </template>
 
 <style scoped>
