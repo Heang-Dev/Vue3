@@ -5,6 +5,7 @@ import Computed from "@/components/Computed.vue";
 import Watch from "@/components/Watch.vue";
 import CardContainer from "@/components/CardContainer.vue";
 import EventsHandler from "@/components/EventsHandler.vue";
+import FormInputVModel from "@/components/FormInputVModel.vue";
 </script>
 
 <template>
@@ -12,7 +13,8 @@ import EventsHandler from "@/components/EventsHandler.vue";
 <!--	<Computed />-->
 <!--	<Watch />-->
 <!--	<CardContainer />-->
-	<EventsHandler />
+<!--	<EventsHandler />-->
+	<FormInputVModel />
 </template>
 
 <style scoped>
