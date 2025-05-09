@@ -1,4 +1,6 @@
-import {onMounted, onUnmounted, ref} from "vue";
+import {ref} from "vue";
+
+import { useEventListeners} from "@/Composable/useEventListeners.js";
 
 export const useMouseTracker = () => {
     const x = ref(0);
@@ -9,12 +11,8 @@ export const useMouseTracker = () => {
         y.value = e.pageY;
     }
 
-    onMounted(
-        () => window.addEventListener('mousemove', updatePosition)
-    );
-    onUnmounted(
-        () => window.removeEventListener('mousemove', updatePosition)
-    );
+    useEventListeners(window, "mousemove", updatePosition);
+    // useEventListeners(window, "click", () => console.log("Clicked"));
 
     return { x, y };
 }

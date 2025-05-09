@@ -8,6 +8,7 @@ import EventsHandler from "@/components/EventsHandler.vue";
 import FormInputVModel from "@/components/FormInputVModel.vue";
 import ComponentVModel from "@/components/ComponentVModel.vue";
 import Composable from "@/components/Composable.vue";
+import CombineComposables from "@/components/CombineComposables.vue";
 </script>
 
 <template>
@@ -17,8 +18,9 @@ import Composable from "@/components/Composable.vue";
 <!--	<CardContainer />-->
 <!--	<EventsHandler />-->
 <!--	<FormInputVModel />-->
-<!--	<ComponentVModel />
---><Composable />
+<!--<ComponentVModel />-->
+<!--<Composable />-->
+	<CombineComposables />
 </template>
 
 <style scoped>
