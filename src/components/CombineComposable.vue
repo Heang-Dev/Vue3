@@ -1,7 +1,7 @@
 <script setup>
 
-import ScreenOne from "@/Views/ScreenOne.vue";
-import ScreenTwo from "@/Views/ScreenTwo.vue";
+import ScreenOne from "@/components/ScreenOne.vue";
+import ScreenTwo from "@/components/ScreenTwo.vue";
 </script>
 
 <template>
