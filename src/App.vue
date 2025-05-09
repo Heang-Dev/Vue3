@@ -6,6 +6,7 @@ import Watch from "@/components/Watch.vue";
 import CardContainer from "@/components/CardContainer.vue";
 import EventsHandler from "@/components/EventsHandler.vue";
 import FormInputVModel from "@/components/FormInputVModel.vue";
+import ComponentVModel from "@/components/ComponentVModel.vue";
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import FormInputVModel from "@/components/FormInputVModel.vue";
 <!--	<Watch />-->
 <!--	<CardContainer />-->
 <!--	<EventsHandler />-->
-	<FormInputVModel />
+<!--	<FormInputVModel />-->
+	<ComponentVModel />
 </template>
 
 <style scoped>

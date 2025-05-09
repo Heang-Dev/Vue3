@@ -23,6 +23,9 @@ const handleInput = (e) => {
 </script>
 
 <template>
+	<h1 class="title">
+		Form Input V-Model
+	</h1>
 	<div>
 		<p>
 			Selected : <span>{{ text }}</span>
