@@ -26,6 +26,11 @@ const users = [
 		img: "https://avatars.githubusercontent.com/u/157885974?v=4",
 	},
 ]
+
+const handleClick = () => {
+	console.log(users);
+}
+
 </script>
 
 <template>
@@ -39,7 +44,7 @@ const users = [
 			:img="user.img"
 			:name="user.name"
 			:status="user.status" />
-	<Button />
+	<Button title="Log User Info" :event="handleClick"/>
 </template>
 
 <style scoped>

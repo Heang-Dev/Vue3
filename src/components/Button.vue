@@ -1,12 +1,13 @@
 <script setup>
-	const handleClick = () => {
-		console.log('Clicked');
-	}
+	defineProps({
+		title: String,
+		event: Function,
+	})
 </script>
 
 <template>
-	<button @click="handleClick">
-		Click me
+	<button @click="event">
+		{{ title }}
 	</button>
 </template>
 
