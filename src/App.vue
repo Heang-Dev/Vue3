@@ -11,6 +11,7 @@ import Composable from "@/components/Composable.vue";
 import CombineComposable from "@/components/CombineComposable.vue";
 import Layout from "@/Layouts/Layout.vue";
 import Navbar from "@/Views/Navbar.vue";
+import Store from "@/Composable/Store.vue";
 </script>
 
 <template>
@@ -23,8 +24,9 @@ import Navbar from "@/Views/Navbar.vue";
 <!--<ComponentVModel />-->
 <!--<Composable />-->
 <!--	<CombineComposable />-->
-	<Navbar />
-	<Layout />
+<!--	<Navbar />-->
+<!--	<Layout />-->
+	<Store />
 </template>
 
 <style scoped>
