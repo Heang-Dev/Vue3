@@ -8,7 +8,9 @@ import EventsHandler from "@/components/EventsHandler.vue";
 import FormInputVModel from "@/components/FormInputVModel.vue";
 import ComponentVModel from "@/components/ComponentVModel.vue";
 import Composable from "@/components/Composable.vue";
-// import CombineComposable from "@/components/CombineComposable.vue";
+import CombineComposable from "@/components/CombineComposable.vue";
+import Layout from "@/Layouts/Layout.vue";
+import Navbar from "@/Views/Navbar.vue";
 </script>
 
 <template>
@@ -21,17 +23,8 @@ import Composable from "@/components/Composable.vue";
 <!--<ComponentVModel />-->
 <!--<Composable />-->
 <!--	<CombineComposable />-->
-	<h1>
-		Hello
-	</h1>
-	<div>
-		<router-link to="/">Home</router-link>
-		<router-link to="/about">About</router-link>
-		<router-link to="/contact">Contact</router-link>
-	</div>
-	<div>
-		<router-view></router-view>
-	</div>
+	<Navbar />
+	<Layout />
 </template>
 
 <style scoped>
